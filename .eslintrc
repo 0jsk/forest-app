@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaOptions": {
+      "jsx": true
+    },
+    "project": "./tsconfig.json"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "quotes": ["error", "double"],
+    "indent": ["error", 2],
+    "semi": "error",
+    "object-curly-spacing": ["error", "always"],
+    "react/jsx-indent": ["error", 2, { "checkAttributes": true }],
+    "@typescript-eslint/consistent-type-imports": "error"
+  }
+}

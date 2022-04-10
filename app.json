@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "forester",
+    "icon": "./app/assets/images/logo.png",
+    "version": "1.0.0",
+    "slug": "forester",
+    "ios": {
+      "bundleIdentifier": "ru.mirea.wesucks",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "ru.mirea.wesucks",
+      "versionCode": 1
+    }
+  }
+}

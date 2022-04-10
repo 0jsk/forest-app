@@ -1,4 +1,13 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "baseUrl": "./app",
+    "paths": {
+      "~app/*": ["./*"],
+      "~features/*": ["./features/*"],
+      "~shared/*": ["./shared/*"]
+    },
+    "strictNullChecks": true,
+    "incremental": true
+  },
   "extends": "expo/tsconfig.base"
 }
